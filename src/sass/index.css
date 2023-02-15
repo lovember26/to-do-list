@@ -1,5 +1,4 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
-
 body {
   margin: 0;
   min-width: 250px;
@@ -25,7 +24,6 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
-
   /* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -52,7 +50,7 @@ ul li.checked {
 
 /* Add a "checked" mark when clicked on */
 ul li.checked::before {
-  content: '';
+  content: "";
   position: absolute;
   border-color: #fff;
   border-style: solid;
@@ -87,7 +85,7 @@ h2 {
 
 /* Clear floats after the header */
 h2:after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -119,4 +117,4 @@ input {
 
 .addBtn:hover {
   background-color: #bbb;
-}
+}/*# sourceMappingURL=index.css.map */

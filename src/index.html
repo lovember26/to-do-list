@@ -8,7 +8,18 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <h2>My To Do List</h2>
+    <form class="form" id="form">
+      <input
+        id="input"
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="To Do..."
+      />
+      <button type="submit" id="button" class="addBtn">Add</button>
+    </form>
+
+    <ul id="myUL"></ul>
   </body>
 </html>
